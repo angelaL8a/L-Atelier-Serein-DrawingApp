@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.js"></script>
+    <script src="lib/p5.pdf.js"></script>
+    <script src="lib/p5.sound.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <!-- add extra scripts below -->
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="helperFunctions.js"></script>
+
+    <script src="freehandTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+    <script src="sprayCanTool.js"></script>
+    <script src="circleCanTool.js"></script>
+    <script src="rectangleTool.js"></script>
+    <script src="mandala.js"></script>
+    <script src="geometricDesignTool.js"></script>
+    <script src="starTool.js"></script>
+    <script src="eraserTool.js"></script>
+    <script src="editShapeTool.js"></script>
+    <script src="pressOnCanvas.js"></script>
+    <script src="midMoonTool.js"></script>
+    <script src="rainbowRadial.js"></script>
+    <script src="multicolorLineTool.js"></script>
+    <script src="rainbowBrushTool.js"></script>
+    <script src="watercolourTool.js"></script>
+    <script src="backgroundColor.js"></script>
+    <script src="addImageTool.js"></script>
+    <script src="highLighterTool.js"></script>
+    <script src="shapeBrushTool.js"></script>
+    <script src="arcsTool.js"></script>
+    <script src="crayonTool.js"></script>
+    <script src="bladesTool.js"></script>
+    <script src="angleBrushTool.js"></script>
+    <script src="pointsTool.js"></script>
+    <script src="hatchingTool.js"></script>
+    <script src="sprayPincelTool.js"></script>
+    <script src="stickerTool.js"></script>
+    <script src="cloneShapeTool.js"></script>
+    <script src="autoRainbowTool.js"></script>
+    <script src="a1.js"></script>
+    <script src="filtersTool.js"></script>
+    <script src="cutPasteTool.js"></script>
+    <script src="copyPasteTool.js"></script>
+    <script src="textTool.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box header"></div>
+      <div class="box" id="sidebar"></div>
+      <div id="sizeOfControl"></div>
+      <div id="content"></div>
+      <div class="box colourPalette"></div>
+      <div class="box options"></div>
+      <div class="underbox" id="underbox">
+        <input
+          class="colorPicker"
+          type="color"
+          id="colorpicker"
+          value="#000000"
+        />
+        <label
+          style="color: rgb(100, 100, 100); font-size: 20"
+          for="colorPicker"
+          >Stroke</label
+        >
+        <input
+          class="colorPicker"
+          type="color"
+          id="colorpicker_2"
+          value="#000000"
+        />
+        <label
+          style="color: rgb(100, 100, 100); font-size: 20"
+          for="colorPicker"
+          >Fill</label
+        >
+        <button id="clearB" class="learn-more">CLEAR</button>
+        <button id="saveImageB" class="learn-more">SAVE IMAGE</button>
+        <button id="printB" class="learn-more">PRINT</button>
+        <div id="stickers"></div>
+        <div id="otherSpace"></div>
+        <div id="otherSpace2"></div>
+        <div id="otherSpace3" class="otherSpace3"></div>
+      </div>
+
+      <div class="loadingPage" id="loadingPage">
+        <div class="loadingio-spinner-spinner-977el9wwy2v">
+          <div class="ldio-4j5ay0xf86g">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

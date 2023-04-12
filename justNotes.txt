@@ -1,0 +1,76 @@
+
+just notes (doesn't matter)
+
+
+TO CREATE A COLORPICKER
+<input type='color' id='colorpicker' class='colorPicker' value='#000000'>
+<input type='file' class='buttonImage' id = 'inputImage' value = 'handleFile' >
+
+// color = createColorPicker('#ed225d');
+        // color.parent(select(".underbox"));
+
+
+IMPORTANT CODE (de antes)
+<button id="clearButton">CLEAR</button>
+<button id="saveImageButton">SAVE IMAGE</button>
+<button id="printButton">PRINT</button>
+
+#clearButton {
+	color: #000000;
+	background-color: #8dffec;
+	border: none;
+	width: 65px;
+	height: 30px;
+	border-radius: 3px;
+}
+
+#clearButton:hover {
+	color: #fff;
+	background: #ffc3ea;
+}
+
+#saveImageButton {
+	background-color: #8dffec;
+	border: none;
+	width: 95px;
+	height: 30px;
+	border-radius: 3px;
+}
+
+#saveImageButton:hover {
+	color: #fff;
+	background: #ffc3ea;
+}
+
+#printButton {
+	background-color: #8dffec;
+	border: none;
+	width: 95px;
+	height: 30px;
+	border-radius: 3px;
+}
+
+#printButton:hover {
+	color: #fff;
+	background: #ffc3ea;
+}
+
+
+rect(middleX, middleY,theDist,theDist) (SHAPEBRUSHTOOL)
+
+
+stroke(frameCount % 255, 180, 25, 160) (pointsTool)
+
+
+//create a div for a label
+        divh = createDiv();
+        divh.parent(select('#otherSpace'));
+        divh.class('huelabel');
+        divh.id('huelabel')
+        //label 
+        var hueValue = document.getElementById("spraySize");
+        labelHue = document.getElementById("huelabel");
+        labelHue.innerHTML = hueValue.value;
+        hueValue.oninput = function() {
+            labelHue.innerHTML = this.value;
+        }
