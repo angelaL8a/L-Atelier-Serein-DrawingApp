@@ -1,5 +1,5 @@
 # 🌟 L'Atelier Serein 🌟
-
+![Cover](/assets/UI/cover.png)
 _An Artistic Journey Beyond Boundaries_
 
 ## Introduction
@@ -9,7 +9,7 @@ In a world where traditional and digital art collide, **L'Atelier Serein** stand
 This profound shift in art has inspired me to build a suite of tools designed to replicate the tactile, intimate experience of traditional art, while embracing the limitless possibilities of digital expression. **L'Atelier Serein** is a cute, quirky, yet highly effective drawing application crafted for artists who dare to explore both worlds.
 
 ## 🎨 Features
-
+![Tools](/assets/UI/tools.png)
 ### Background
 
 - **Change Background Color**: Adjust the backdrop to suit your mood or project (RGB, HSB, HSL, ColorPicker).
@@ -59,7 +59,7 @@ This profound shift in art has inspired me to build a suite of tools designed to
 - **Stickers Tool**: A wide variety of cute stickers to personalize your art.
 
 ## 🚀 Helper Functions & Additional Features
-
+![Tools](/assets/UI/serein.png)
 ### Backgrounds
 
 - Seamlessly switch between color modes (RGB, HSB, HSL).
@@ -84,7 +84,6 @@ This profound shift in art has inspired me to build a suite of tools designed to
 ## 🔧 Technologies
 
 This project was built using:
-
 - **p5.js**: For seamless graphic rendering.
 - **JavaScript**: To power interactivity and logic.
 - **HTML & CSS**: For the smooth, responsive UI experience.
