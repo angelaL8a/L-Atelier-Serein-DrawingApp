@@ -1,3 +1,7 @@
+![ViewCount](https://views.whatilearened.today/views/github/angelaL8a/L-Atelier-Serein-DrawingApp.svg?cache=remove)
+![GitHub top language](https://img.shields.io/github/languages/top/angelaL8a/L-Atelier-Serein-DrawingApp?style=flat)
+![GitHub language count](https://img.shields.io/github/languages/count/angelaL8a/L-Atelier-Serein-DrawingApp?style=flat)
+
 # 🌟 L'Atelier Serein 🌟
 ![Cover](/assets/UI/cover.png)
 _An Artistic Journey Beyond Boundaries_
